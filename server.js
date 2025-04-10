@@ -48,7 +48,7 @@ app.post("/enviar-codigo", async (req, res) => {
       html: `
         <div style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; text-align: center;">
           <div style="max-width: 500px; margin: auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-            <h2 style="color: #4CAF50; margin-bottom: 20px;">¡Bienvenido a GREMIO! 👋</h2>
+            <h2 style="color: #3498db; margin-bottom: 20px;">¡Bienvenido a GREMIO! 👋</h2>
             <p style="font-size: 16px; color: #333;">Gracias por registrarte en nuestra plataforma.</p>
             <p style="font-size: 16px; color: #333;">Tu código de verificación es:</p>
             <div style="font-size: 24px; font-weight: bold; background-color: #e0f7fa; color: #00796b; padding: 10px 20px; border-radius: 6px; display: inline-block; margin: 20px 0;">
@@ -56,7 +56,7 @@ app.post("/enviar-codigo", async (req, res) => {
             </div>
             <p style="color: #666;">Este código es válido por unos minutos. Si no solicitaste este código, podés ignorar este correo.</p>
             <hr style="margin: 30px 0;">
-            <small style="color: #aaa;">Gremio © ${new Date().getFullYear()}</small>
+            <small style="color: #aaa;">© ${new Date().getFullYear()} GREMIO. Todos los derechos reservados.</small>
           </div>
         </div>
       `,
